@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junia's Portfolio</title>
+    <!--CSS approach 1
+         <style>
+        body{
+            color:red
+        }
+    </style> -->
+    <!-- CSS approach 3 -->
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Junia's component library</h1>
-    <p>I am attending neog.camp and I am building this portfolio website which links all my projects</p>
+    <h1 id="heading">Junia's component library</h1>
+    <!--CSS approach 2
+         <h1 style="color:red">Junia's component library</h1> -->
+    <p class="para">I am attending neog.camp and I am building this portfolio website which links all my projects</p>
     <hr>
     <h2>@typography</h2>
     <h1> This is first heading </h1>
-    <h2> This is second heading</h2>
-    <p> This is a paragraph and the text size is normal</p>
+    <h2> This is second heading </h2>
+    <p class="para"> This is a paragraph and the text size is normal</p>
     <small> This is relatively smaller text </small>
     <hr>
 
     <h2>@container</h2>
-    <h3>Fluid container</h3>
+    <h3 class="container">Fluid container</h3>
     <div> This is a fluid container and goes till end of page</div>
     <h3>Rigid container</h3>
     <div> This is a Rigid container and it has specified dimension</div>
@@ -45,7 +55,7 @@
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
