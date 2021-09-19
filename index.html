@@ -14,29 +14,81 @@
     <!-- CSS approach 3 -->
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
-    <h1 id="heading">Junia's component library</h1>
+    <nav class="nav">
+        <div>Portfolio</div>
+        <ul>
+            <li class="list-inline">
+                <a class="active-link nav-list"  href="/">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="nav-list" href="/">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="nav-list" href="/">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="section">
+        <img class="page-image" src="images/coder.svg">
+        <h1 class="heading">Junia Josephine</h1>
+    
     <!--CSS approach 2
          <h1 style="color:red">Junia's component library</h1> -->
-    <p class="para">I am attending neog.camp and I am building this portfolio website which links all my projects</p>
-    <hr>
-    <h2>@typography</h2>
+    <p>I am an ETL developer with 5 years experience and love to move into coding stream and hence attending the neog.camp. I am building this portfolio website which links all my projects</p>
+    </header>
+
+    <section class="section off-white-section">
+        <h3>Technologies</h3>
+        <p>I am familiar with SQL, Databases and ETL tools. Now I am into frontend Technologies HTML, CSS, Javascript</p>
+    </section>
+
+    <section class="section white-section">
+        <h3>Projects</h3>
+        <p>I like to showcase my work and linking the projects hosted in this portfolio</p>
+        <a class="link primary-link" href="projects.html">See my Projects</a>
+    </section>
+
+    <section class="section off-white-section">
+        <h3>Blogs</h3>
+        <p>Some of the blogs which I loved</p>
+        <a class="link secondary-link" href="blogs.html">Read more</a>
+    </section>
+<br>
+    <section class="social-link">
+        <h4>Get connected in</h4>
+        <ul>
+            <li class="list-inline">
+                <a class="nav-list" href="https://github.com/JuniaJosephine19">Github</a>
+            </li>
+            <li class="list-inline">
+                <a class="nav-list" href="https://www.linkedin.com/in/junia-josephine-d-12229ab6/">Linked In</a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
+
+<!-- 
+<h2>@typography</h2>
     <h1> This is first heading </h1>
     <h2> This is second heading </h2>
-    <p class="para"> This is a paragraph and the text size is normal</p>
+    <p> This is a paragraph and the text size is normal</p>
     <small> This is relatively smaller text </small>
     <hr>
 
     <h2>@container</h2>
-    <h3 class="container">Fluid container</h3>
-    <div> This is a fluid container and goes till end of page</div>
+    <h3>Fluid container</h3>
+    <div class="container"> This is a fluid container and goes till end of page</div>
     <h3>Rigid container</h3>
-    <div> This is a Rigid container and it has specified dimension</div>
+    <div class="container"> This is a Rigid container and it has specified dimension</div>
     <hr>
 
     <h2>@links</h2>
-    <a href="https://google.com">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link primary-link" href="https://google.com">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
     <hr>
 
     <h2>@lists</h2>
@@ -59,49 +111,4 @@
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
-    <nav>
-        <div>I am Junia</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/">projects</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>
-
-    <header>
-        <img src="images/coder.svg">
-        <h1>heading inside header</h1>
-    </header>
-
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
-    </section>
-
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
-    </section>
-
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>social One</li>
-            <li>social Two</li>
-        </ul>
-    </footer>
-</body>
-</html>
+    </ol> -->

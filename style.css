@@ -1,11 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root{
+    --primary-color:#536DFE;
+    --secondary-color: #f5f5f5dc;
+    --white-color:white; 
+}
+
 body{
-    color:rgb(228, 60, 37)
+    font-family: 'Work Sans', sans-serif;
+    display: block;
+    padding: 0 10%;
 }
 
-#heading{
-    color:rgb(16, 148, 22)
+.page-image{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    max-height: 30%;
 }
 
-.para{
-    color:rgb(218, 206, 38)
+.heading{
+    color: var(--primary-color);
+}
+
+.link{
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.secondary-link{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.list-inline{
+    display: inline;
+    padding: 1rem;    
+}
+
+.active-link{
+    font-weight: bold;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.4rem;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.nav-list{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.section{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.off-white-section{
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.social-link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
 }
